@@ -1,0 +1,52 @@
+body {
+  background: url("https://farm6.staticflickr.com/5689/23274866100_dcdc46f20d_b.jpg") no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+ 
+}
+.general{
+  font-family: lucida, typewriter, serif;
+  font-size: 1em;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#title {
+  font-family: typewriter;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 20vw;
+}
+#mainBox {
+  background: white 50% 50%;  
+  border: .25em solid #550;
+  box-shadow: 2px 2px 25px #e0f2bf, 5px 5px 50px gray;
+  border-radius: 5%;
+  position: relative;
+  height:90vh;
+  width: 42vw;
+  top: 4em;
+  opacity: .95;
+  padding-top: 1em;
+  margin-bottom: 5em;
+}
+#mainBox p, #mainbox button{
+  opacity: 1;
+  font-family: arial, helvetica;
+}
+#mainBox button {
+  border-radius: 20%;
+  height: 5em;
+  width: 10em;
+  font-weight: bold;
+  margin-top: 0;
+}
+#quoteText {
+  padding-top: 1em;
+  margin: .6em;
+  font-size: .9em;
+  font-family: Webdings, fantasy, helvetica;
+}
